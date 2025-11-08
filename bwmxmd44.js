@@ -80,7 +80,7 @@ async function autoRunSequence() {
 
 async function promptLoop() {
     const commands = [
-        { name: 'deploy', desc: 'Fake deploy — pushes a dramatic upload' },
+        { name: 'deploy', desc: 'Deploy — pushes a dramatic upload' },
         { name: 'upload', desc: 'Simulate file upload to BWM cloud' },
         { name: 'scan', desc: 'Run a movie-style deep scan' },
         { name: 'ai-update', desc: 'Simulate AI model patch/update' },
