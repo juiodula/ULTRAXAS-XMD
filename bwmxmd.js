@@ -1,9 +1,9 @@
-const figlet = require('figlet');
-const chalk = require('chalk');
-const ora = require('ora');
-const cliProgress = require('cli-progress');
-const gradient = require('gradient-string');
-const inquirer = require('inquirer');
+import figlet from 'figlet';
+import chalk from 'chalk';
+import ora from 'ora';
+import cliProgress from 'cli-progress';
+import gradient from 'gradient-string';
+import inquirer from 'inquirer';
 
 const EMOJI_ROCKET = '🚀';
 const EMOJI_LIGHT = '💡';
@@ -80,7 +80,7 @@ async function autoRunSequence() {
 
 async function promptLoop() {
     const commands = [
-        { name: 'deploy', desc: 'Bwm xmd deploy — pushes a dramatic upload' },
+        { name: 'deploy', desc: 'Fake deploy — pushes a dramatic upload' },
         { name: 'upload', desc: 'Simulate file upload to BWM cloud' },
         { name: 'scan', desc: 'Run a movie-style deep scan' },
         { name: 'ai-update', desc: 'Simulate AI model patch/update' },
