@@ -1,10 +1,4 @@
 
-#!/usr/bin/env node /* bwmxmd_show.js Fun terminal show for "BWM XMD v8" — Ibrahim Adams Node.js script: big ASCII title, colorful animations, ~60s auto-run then asks for command
-
-Dependencies: chalk, figlet, ora, cli-progress, gradient-string, inquirer Install: npm init -y && npm i chalk figlet ora cli-progress gradient-string inquirer
-
-Save as bwmxmd_show.js, then run: node bwmxmd_show.js */
-
 const figlet = require('figlet'); const chalk = require('chalk'); const ora = require('ora'); const cliProgress = require('cli-progress'); const gradient = require('gradient-string'); const inquirer = require('inquirer');
 
 const EMOJI_ROCKET = '🚀'; const EMOJI_LIGHT = '💡'; const EMOJI_SPARKS = '✨'; const EMOJI_LOCK = '🔒'; const EMOJI_CHECK = '✅';
